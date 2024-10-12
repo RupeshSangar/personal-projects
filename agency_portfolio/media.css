@@ -1,0 +1,178 @@
+@media (max-width: 576px) {
+    .grip-display{
+        display: none;
+    }
+    .header-image{
+        margin-top: 20px;
+    }
+
+    a{
+        font-size: 15px;
+        font-family: 'Montserrat';
+        font-weight: bold !important;
+    }
+    .a{
+        font-size: 22px;
+        color: black;
+        text-decoration: none;
+        font-weight: bolder !important;
+    }
+    
+    h2{
+        font-size: 36px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h3{
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    .h3{
+        font-size: 22px;
+        font-weight: bold !important;
+    }
+    h5{
+        font-size: 18px;
+        font-family: 'Montserrat';
+        color: #FFCC00;
+        font-weight: bold !important;
+    }
+    
+    .h2{
+        font-size: 30px !important;
+        font-weight: bold !important;
+    }
+    
+    p{
+        font-size: 15px;
+        font-family: 'Montserrat';
+    }
+    
+    b{
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+    
+    
+    
+    .para{
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 577px) and (max-width: 766px){
+    #nav{
+        padding: 10px 20px;
+    }
+
+    .carousel-img{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 100% !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    .h2{
+        font-size: 30px !important;
+        margin-bottom: 50px !important;
+    }
+
+    h5{
+        line-height: 1.5;
+    }
+
+    .para{
+        margin-top: 30px !important;
+    }
+
+    .circle{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        z-index: 5;
+        top: 180px;
+        left: 250px;
+    }
+
+    .header-image{
+        margin-top: 100px !important;
+    }
+
+
+} 
+
+
+@media screen and (min-width: 766px) and (max-width: 992px){
+    #nav{
+        padding: 10px 20px;
+    }
+
+
+    .h2{
+        font-size: 34px !important;
+    }
+
+    h5{
+        line-height: 1.5;
+    }
+
+    .para{
+        margin-top: 30px !important;
+    }
+
+    .circle{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        z-index: 5;
+        top: 180px;
+        left: 350px;
+    }
+
+} 
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    #nav{
+        padding: 10px 20px;
+    }
+
+
+    .grip-display a i{
+        color: black !important;
+    }
+    
+    
+    
+    .circle{
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        z-index: 5;
+        top: 150px;
+        left: 300px;
+    }
+
+    #header{
+        height: 700px !important;
+    }
+}

@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>
+       Portfolio-Dabble-Creative Agency & Portfolio
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+
+    <link rel="icon" href="favicon_io/favicon.ico">
+    
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- navbar start -->
+    
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top nav-pills" id="nav">
+        <!-- <div class="container-fluid"> -->
+            <a class="navbar-brand ms-5" href="#">
+                <img src="img/logo_v.png" alt="logo" style="height: 25px !important; width: 125px;">
+            </a>
+            <button class="navbar-toggler text-uppercase shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="height: 59px; width: 50px;" >
+                <i class="fa-solid fa-grip grip-display1" style="font-size: 30px;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item mx- mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="#">Portfolios</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1 align-self-center d-md-clock d-xl-block d-xxl-block d-none">
+                        <a class="btn shadow-none text-white py-3 px-5" href="#exampleModal" data-bs-toggle="modal">
+                            <i class="fa-solid fa-magnifying-glass" style="font-size: 20px;"></i>
+                        </a>
+                    </li>
+                    <li class=" grip-display d-lg-block d-md-none d-sm-none align-self-center">
+                        <a class=" btn shadow-none text-white" data-bs-toggle="offcanvas" href="#offcanvasWithBothOptions" role="button" aria-controls="offcanvasExample" style="margin-left: 50px;">
+                            <i class="fa-solid fa-grip " style="font-size: 30px;"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div> 
+            
+
+        <!-- </div>     -->
+        
+    </nav>
+
+    <section id="header" class="mx-auto ">
+
+        <!-- navbar search modal  -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg modal-sm">
+                <div class="modal-content bg-black">
+                    <div class="modal-header border-bottom-0">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                    <button type="button" class="btn-close btn-close-white  shadow-none" data-bs-dismiss="modal" aria-label="Close" style="color: white;"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-between border-bottom">
+                        <!-- <div></div> -->
+                            <h2 class="text-white">Searching...</h2>
+                            <a class="btn shadow-none text-white " href="#">
+                                <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- offcanvas content start  -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBothOptions" data-bs-scroll="true" >
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset ms-auto shadow-none " data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <img  src="img/logo-light.png" alt="" style="height: 25px; width: 125px;">
+                <p class="text-white my-5 para">Dabble quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas etiusto odio data center working here.</p>
+                <div class="row align-content-center mb-3">
+                    <div class="col-2 ">
+                        <i class="fa-solid fa-map-location-dot info-icons"></i>
+                    </div>
+                    <div class="col-10">
+                        <b class="text-white d-block">Address</b>
+                        <p class="text-white">05 kandi BR. New York</p>
+                    </div>
+                </div>
+                <div class="row align-content-center mb-3">
+                    <div class="col-2 ">
+                        <i class="fa-solid fa-envelope info-icons"></i>
+                    </div>
+                    <div class="col-10">
+                        <b class="text-white d-block">Email</b>
+                        <a href="#" class="info-anchor">support@rstheme.com</a>
+                    </div>
+                </div>
+                <div class="row align-content-center mb-5">
+                    <div class="col-2 ">
+                        <i class="fa-solid fa-phone-volume info-icons"></i>
+                    </div>
+                    <div class="col-10">
+                        <b class="text-white d-block">Phone</b>
+                        <p class="text-white">(265) 2568 26548</p>
+                    </div>
+                </div>
+                <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                    <i class="fa-brands fa-facebook-f  "></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                    <i class="fa-brands fa-twitter  "></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                    <i class="fa-brands fa-linkedin "></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                    <i class="fa-brands fa-instagram "></i>
+                </a>
+            </div>
+        </div>
+        <!-- offcanvas content end  -->
+
+        <!-- header content  -->
+        <div class="header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <div class="header-title">
+                        <h1 class="h1 text-white">
+                            Portfolios Isotope              
+                        </h1>                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    </section>
+
+
+    <div id="portfolio">
+        <div class="container-fluid">
+            <div class="container-xxl container-xl container-lg container-md container-sm">
+                <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item px-3 " role="presentation">
+                      <button class="nav-link portfolio-title" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item px-3 " role="presentation">
+                      <button class="nav-link portfolio-title" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-branding" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Branding</button>
+                    </li>
+                    <li class="nav-item px-3 " role="presentation">
+                      <button class="nav-link portfolio-title" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Design</button>
+                    </li>
+                    <li class="nav-item px-3 " role="presentation">
+                      <button class="nav-link portfolio-title" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-development" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Development</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="row mb-3">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>    
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                            
+                                                <a href="#">
+                                                    <p class="">Branding</p>
+                                                </a>
+                                            
+                                            <a href="#" >Robin Mastromarino</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg22-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Branding</p>
+                                            </a>
+                                        
+                                            <a href="#" >Studio Feixen</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio-500x500.jpg" alt="portfolio--mockup-ima
+                                    age" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Development</p>
+                                            </a>
+                                        
+                                            <a href="#" >Marleigh Culver</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg888-500x500.jpg" alt="portfolio--mo
+                                ckup-image" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Design</p>
+                                            </a>
+                                        
+                                            <a href="#" >Made Thought</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg323333-500x500.jpg" alt="portfolio--mo
+                                ckup-image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Branding</p>
+                                            </a>
+                                        
+                                            <a href="#" >Merijn Hoss</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg555-500x500.jpg" alt="portfolio--mo
+                                ckup-image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Design</p>
+                                            </a>
+                                        
+                                            <a href="#" >Xavier Cusso</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg999-500x500.jpg" alt="portfolio--mo
+                                ckup-image" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Development</p>
+                                            </a>
+                                        
+                                            <a href="#" >Buzzworthy Studio</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg4440044-500x500.jpg" alt="portfolio--mo
+                                ckup-image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Design</p>
+                                            </a>
+                                        
+                                            <a href="#" >Studio Thomas</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg66666-500x500.jpg" alt="portfolio--mo
+                                ckup-image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-md-3 mb-sm-3 mb-lg-0 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Branding</p>
+                                            </a>
+                                        
+                                            <a href="#" >Locomotive</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg777-500x500.jpg" alt="portfolio--mo
+                                ckup-image" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row mb-3">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Branding</p>
+                                            </a>
+                                        
+                                        <a href="#" >Robin Mastromarino</a>
+                                        </h3>
+                                    </div>    
+                                    <img src="img/portfolio/big_portfolio.jpg22-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Branding</p>
+                                            </a>
+                                        
+                                            <a href="#" >Studio Feixen</a>
+                                        </h3>
+                                    </div>    
+                                    <img src="img/portfolio/big_portfolio-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Branding</p>
+                                            </a>
+                                        
+                                            <a href="#" >Merijn Hoss</a>
+                                        </h3>
+                                    </div>    
+                                    <img src="img/portfolio/big_portfolio.jpg555-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Branding</p>
+                                            </a>
+                                        
+                                            <a href="#" >Locomotive</a>
+                                        </h3>
+                                    </div>    
+                                    <img src="img/portfolio/big_portfolio.jpg777-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row mb-3">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Design</p>
+                                            </a>
+                                        
+                                            <a href="#" >Made Thought</a>
+                                        </h3>
+                                    </div>    
+                                    <img src="img/portfolio/big_portfolio.jpg323333-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Design</p>
+                                            </a>
+                                        
+                                            <a href="#" >Xavier Cusso</a>
+                                        </h3>
+                                    </div>    
+                                    <img src="img/portfolio/big_portfolio.jpg999-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Design</p>
+                                            </a>
+                                        
+                                            <a href="#" >Studio Thomas</a>
+                                        </h3>
+                                    </div>    
+                                    <img src="img/portfolio/big_portfolio.jpg66666-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>       
+                    </div>
+                    <div class="tab-pane fade" id="pills-development" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row mb-3">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1 mb-3">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Development</p>
+                                            </a>
+                                        
+                                            <a href="#" >Marleigh Culver</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg888-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1">
+                                <div class="folio_modal">
+                                    <div class="img-hover">
+                                        <a href="#">
+                                            <i class="fa-solid fa-plus slide-left"></i>
+                                        </a>  
+                                        <h3 class="folio-text tracking-in-expand-fwd-bottom">
+                                        
+                                            <a href="#">
+                                                <p class="">Development</p>
+                                            </a>
+                                        
+                                            <a href="#" >Buzzworthy Studio</a>
+                                        </h3>
+                                    </div>
+                                    <img src="img/portfolio/big_portfolio.jpg4440044-500x500.jpg" alt="portfolio--mockup-image" class="img-fluid">
+                                </div>    
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- footer  -->
+    <div id="footer" class="footer">
+        <div class="container-fluid">
+            <div class="container-xxl container-xl container-lg container-md container-sm">
+                <div class="row"> 
+                    <div class="footer-content-medium col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-4">
+                        <img  src="img/logo_v.png" alt="" style="height: 25px; width: 125px;">
+                        <p class="text-white my-5" style="padding-right: 60px;">One of the main benefits of using Lorem Ipsum is that it can be easily generated, and it takes the pressure off designers to create meaningful text. Instead, they can focus on crafting the best website data.</p>
+                        <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                            <i class="fa-brands fa-facebook-f  "></i>
+                        </a>
+                        <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                            <i class="fa-brands fa-twitter  "></i>
+                        </a>
+                        <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                        <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+        
+                    <div class="footer-content col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-4" style="padding: 0px 15px 0px 70px;">
+                        <h3 class="footer-title text-uppercase text-white mb-4" style="font-weight: bolder;">contact us</h3>
+                        <div class="slide">
+                            <div class="slide sd1"></div>
+                            <div class="slide sd2"></div>
+                        </div>
+                        <div style="padding: 6px 40px 10px 0 ;">
+                            <div class="row align-content-center mb-3 footer-content-medium1">
+                                <div class="col-2 pe-0">
+                                    <i class="fa-solid fa-map-location-dot info-icons1"></i>
+                                </div>
+                                <div class="col-10 ps-0">
+                                    <p class="text-white">374 FA Tower, William S Blvd
+                                        2721, IL, USA</p>
+                                </div>
+                            </div>
+                            <div class="row align-content-center mb-3 footer-content-medium1">
+                                <div class="col-2 pe-0">
+                                    <i class="fa-solid fa-phone-volume info-icons1"></i>
+                                </div>
+                                <div class="col-10 ps-0">
+                                    <p class="text-white mb-0">(+880)155 69569 365</p>
+                                </div>
+                            </div>
+                            <div class="row align-content-center mb-3  footer-content-medium1">
+                                <div class="col-2 pe-0">
+                                    <i class="fa-solid fa-envelope info-icons1"></i>
+                                </div>
+                                <div class="col-10 ps-0">
+                                    <a href="#" class="info-anchor info-anchor1">support@rstheme.com</a>
+                                </div>
+                            </div>
+                            <div class="row align-content-center mb-5 footer-content-medium1">
+                                <div class="col-2 pe-0">
+                                    <i class="fa-regular fa-clock info-icons1"></i>
+                                </div>
+                                <div class="col-10 ps-0">
+                                    <p class="text-white">Opening Hours: 10:00 - 18:00</p>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="footer-content col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-4"
+                    style="padding: 0px 0px 0px 40px; margin: 0px 0px 30px;">
+                        <h3 class="footer-title text-uppercase text-white mb-4" style="font-weight: bolder;">NEWSLETTER</h3>
+                        <div class="slide">
+                            <div class="slide sd1"></div>
+                            <div class="slide sd2"></div>
+                        </div>
+                        <p class="text-white">We denounce with righteous indignation in and dislike men who are so beguiled.</p>
+                        <p>
+                            <input type="email" name="EMAIL" placeholder="Your email address" required="">
+                            <input type="submit" value="Subscribe Now">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <!-- copyright  -->
+    <div class="copy py-3 text-white" style="background-color: black">
+        <div class="container-fluid">
+            <div class="container-xxl container-xl container-lg container-md container-sm">
+                <div class="copy-text">
+                <p class="mb-0">© 2021 Dabble Inc. All Rights Reserved.</p>
+                <ul class="d-flex">
+                    <li>
+                        <a class="text-white text-uppercase" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-uppercase" href="about.html">About us</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-uppercase" href="#">Portfolios</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-uppercase" href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-uppercase" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>    
+            </div>
+        </div>    
+    </div>
+
+
+
+    <div id="scrollUp" style="display: block;">
+        <a href="#">
+            <i class="fa fa-angle-up"></i>
+        </a>    
+    </div>
+
+
+
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

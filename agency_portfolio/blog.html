@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>
+       Blog-Dabble-Creative Agency & Portfolio
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="blog.css">
+
+    <link rel="icon" href="favicon_io/favicon.ico">
+    
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- navbar start -->
+    
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top nav-pills" id="nav">
+        <!-- <div class="container-fluid"> -->
+            <a class="navbar-brand ms-5" href="#">
+                <img src="img/logo_v.png" alt="logo" style="height: 25px !important; width: 125px;">
+            </a>
+            <button class="navbar-toggler text-uppercase shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="height: 59px; width: 50px;" >
+                
+                <i class="fa-solid fa-grip grip-display1" style="font-size: 30px;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item mx- mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="portfolio.html">Portfolios</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 me-5  text-white text-uppercase" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1 align-self-center d-md-clock d-xl-block d-xxl-block d-none d-sm-none">
+                        <a class="btn shadow-none text-white py-3 px-5" href="#exampleModal" data-bs-toggle="modal">
+                            <i class="fa-solid fa-magnifying-glass" style="font-size: 20px;"></i>
+                        </a>
+                    </li>
+                    <li class=" grip-display d-lg-block d-md-none d-sm-none align-self-center">
+                        <a class=" btn shadow-none text-white" data-bs-toggle="offcanvas" href="#offcanvasWithBothOptions" role="button" aria-controls="offcanvasExample" style="margin-left: 50px;">
+                            <i class="fa-solid fa-grip " style="font-size: 30px;"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div> 
+            
+
+        <!-- </div>     -->
+        
+    </nav>
+
+    <section id="header" class="mx-auto ">
+
+        <!-- navbar search modal  -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg modal-sm">
+                <div class="modal-content bg-black">
+                    <div class="modal-header border-bottom-0">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                    <button type="button" class="btn-close btn-close-white  shadow-none" data-bs-dismiss="modal" aria-label="Close" style="color: white;"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-between border-bottom">
+                        <!-- <div></div> -->
+                            <h2 class="text-white">Searching...</h2>
+                            <a class="btn shadow-none text-white " href="#">
+                                <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- offcanvas content start  -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBothOptions" data-bs-scroll="true" >
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset ms-auto shadow-none " data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <img  src="img/logo-light.png" alt="" style="height: 25px; width: 125px;">
+                <p class="text-white my-5 para">Dabble quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas etiusto odio data center working here.</p>
+                <div class="row align-content-center mb-3">
+                    <div class="col-2 ">
+                        <i class="fa-solid fa-map-location-dot info-icons"></i>
+                    </div>
+                    <div class="col-10">
+                        <b class="text-white d-block">Address</b>
+                        <p class="text-white">05 kandi BR. New York</p>
+                    </div>
+                </div>
+                <div class="row align-content-center mb-3">
+                    <div class="col-2 ">
+                        <i class="fa-solid fa-envelope info-icons"></i>
+                    </div>
+                    <div class="col-10">
+                        <b class="text-white d-block">Email</b>
+                        <a href="#" class="info-anchor">support@rstheme.com</a>
+                    </div>
+                </div>
+                <div class="row align-content-center mb-5">
+                    <div class="col-2 ">
+                        <i class="fa-solid fa-phone-volume info-icons"></i>
+                    </div>
+                    <div class="col-10">
+                        <b class="text-white d-block">Phone</b>
+                        <p class="text-white">(265) 2568 26548</p>
+                    </div>
+                </div>
+                <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                    <i class="fa-brands fa-facebook-f  "></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                    <i class="fa-brands fa-twitter  "></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                    <i class="fa-brands fa-linkedin "></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                    <i class="fa-brands fa-instagram "></i>
+                </a>
+            </div>
+        </div>
+        <!-- offcanvas content end  -->
+
+        <!-- header content  -->
+        <div class="header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <div class="header-title">
+                        <h1 class="h1 text-white">
+                            Blog              
+                        </h1>                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    </section>
+
+    <div id="blog">
+        <!-- <div class="container-fluid"> -->
+            <div class="container-xxl container-xl container-lg container-md container-sm p-0 mx-auto">
+                <div class="row justify-content-evenly">
+                    <!-- <div class="container-fluid"> -->
+                        <!-- <div class="container-xxl container-xl container-lg container-md container-sm"> -->
+                            <div class="blog-first col-md-12 col-lg-8 col-xl-8 p-0 m-0 col-12">
+                                <div class="row ">
+                                    <!-- div 1  -->
+                                    <div class="col-sm-12 col-xs-12 p-0 shadow shadow-sm mb-5">
+                                        <div class="blog-item">
+                                            <div class="blog-img mb-3">
+                                                <img src="img/blog/06.jpg" alt="" class="blog-bg-img img-fluid">
+                                                <div class="tag">
+                                                    <a href="#" class="btn btn-warning">Branding</a>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="blog-content">
+                                            <div class="title">
+                                                <h3 class="blog-title">
+                                                    <a href="#">
+                                                        Customer Onboarding Strategy: A Guide to Class
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div class="blog-meta">
+                                                <ul class="meta">
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-calendar-days meta-icon"></i>
+                                                            May 5, 2021                
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-user meta-icon"></i>
+                                                            rstheme               
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="blog-desc">
+                                                We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...
+                                            </p>
+                                            <div class="blog-btn">
+                                                <a href="#" class="">
+                                                    Continue Reading
+                                                </a>
+                                                <a href="#"> 
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- div 2  -->
+                                    <div class="col-sm-12 col-xs-12 p-0 shadow shadow-sm mb-5">
+                                        <div class="blog-item">
+                                            <div class="blog-img mb-3">
+                                                <img src="img/blog/05.jpg" alt="" class="blog-bg-img img-fluid">
+                                                <div class="tag">
+                                                    <a href="#" class="btn btn-warning">Branding</a>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="blog-content">
+                                            <div class="title">
+                                                <h3 class="blog-title">
+                                                    <a href="#">
+                                                        How Investing in Self-Dependent Increase Business
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div class="blog-meta">
+                                                <ul class="meta">
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-calendar-days meta-icon"></i>
+                                                            May 5, 2021                
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-user meta-icon"></i>
+                                                            rstheme               
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="blog-desc">
+                                                We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...
+                                            </p>
+                                            <div class="blog-btn">
+                                                <a href="#" class="">
+                                                    Continue Reading
+                                                </a>
+                                                <a href="#"> 
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- div 3  -->
+                                    <div class="col-sm-12 col-xs-12 p-0 shadow shadow-sm mb-5">
+                                        <div class="blog-item">
+                                            <div class="blog-img mb-3">
+                                                <img src="img/blog/04.jpg" alt="" class="blog-bg-img img-fluid">
+                                                <div class="tag">
+                                                    <a href="#" class="btn btn-warning">Digital Marketing</a>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="blog-content">
+                                            <div class="title">
+                                                <h3 class="blog-title">
+                                                    <a href="#">
+                                                        7 Productivity Tips to Avoid Burnout When Working
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div class="blog-meta">
+                                                <ul class="meta">
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-calendar-days meta-icon"></i>
+                                                            May 5, 2021                
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-user meta-icon"></i>
+                                                            rstheme               
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="blog-desc">
+                                                We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...
+                                            </p>
+                                            <div class="blog-btn">
+                                                <a href="#" class="">
+                                                    Continue Reading
+                                                </a>
+                                                <a href="#"> 
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- div 4 -->
+                                    <div class="col-sm-12 col-xs-12 p-0 shadow shadow-sm mb-5">
+                                        <div class="blog-item">
+                                            <div class="blog-img mb-3">
+                                                <img src="img/blog/03.jpg" alt="" class="blog-bg-img img-fluid">
+                                                <div class="tag">
+                                                    <a href="#" class="btn btn-warning">Digital Marketing</a>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="blog-content">
+                                            <div class="title">
+                                                <h3 class="blog-title">
+                                                    <a href="#">
+                                                        Email Marketing Tips That Will Increase Your Sales
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div class="blog-meta">
+                                                <ul class="meta">
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-calendar-days meta-icon"></i>
+                                                            May 5, 2021                
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-user meta-icon"></i>
+                                                            rstheme               
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="blog-desc">
+                                                We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...
+                                            </p>
+                                            <div class="blog-btn">
+                                                <a href="#" class="">
+                                                    Continue Reading
+                                                </a>
+                                                <a href="#"> 
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- div 5 -->
+                                    <div class="col-sm-12 col-xs-12 p-0 shadow shadow-sm mb-5">
+                                        <div class="blog-item">
+                                            <div class="blog-img mb-3">
+                                                <img src="img/blog/02.jpg" alt="" class="blog-bg-img img-fluid">
+                                                <div class="tag">
+                                                    <a href="#" class="btn btn-warning">Graphic Design</a>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="blog-content">
+                                            <div class="title">
+                                                <h3 class="blog-title">
+                                                    <a href="#">
+                                                        How to Maintain Customer Relations Disaster Strikes
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div class="blog-meta">
+                                                <ul class="meta">
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-calendar-days meta-icon"></i>
+                                                            May 5, 2021                
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-user meta-icon"></i>
+                                                            rstheme               
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="blog-desc">
+                                                We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...
+                                            </p>
+                                            <div class="blog-btn">
+                                                <a href="#" class="">
+                                                    Continue Reading
+                                                </a>
+                                                <a href="#"> 
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- div 6 -->
+                                    <div class="col-sm-12 col-xs-12 p-0 shadow shadow-sm mb-5">
+                                        <div class="blog-item">
+                                            <div class="blog-img mb-3">
+                                                <img src="img/blog/02.jpg" alt="" class="blog-bg-img img-fluid">
+                                                <div class="tag">
+                                                    <a href="#" class="btn btn-warning">E-commerce</a>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="blog-content">
+                                            <div class="title">
+                                                <h3 class="blog-title">
+                                                    <a href="#">
+                                                        How to Plan a Fail-Proof Website Redesign Strategy
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div class="blog-meta">
+                                                <ul class="meta">
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-calendar-days meta-icon"></i>
+                                                            May 5, 2021                
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="blog-date">
+                                                            <i class="fa-regular fa-user meta-icon"></i>
+                                                            rstheme               
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="blog-desc">
+                                                We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...
+                                            </p>
+                                            <div class="blog-btn">
+                                                <a href="#" class="">
+                                                    Continue Reading
+                                                </a>
+                                                <a href="#"> 
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>    
+                            
+                            <div class="blog-second col-lg-4 pe-0 ps-3 col-12 shadow-sm">
+                                <!-- <div class="row"> -->
+                                <div class="blog-secondary">
+                                    <div class="blog-search">
+                                        <input type="search" placeholder="Searching..." name="s" class="search-input" value="">
+                                        <button type="submit" value="Search">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- recent post  -->
+                                <div class="recent-post shadow shadow-sm">
+                                    <h2 class="recent-title text-capitalize">
+                                        recent posts
+                                    </h2>
+                                    <div class="recent-line">
+
+                                    </div>
+
+                                    <!-- post text 1 -->
+
+                                    <div class="post-text">
+                                        <div class="show-featured">
+                                            <div class="post-img">
+                                                <a href="#">
+                                                    <img src="img/blog/06-80x68.jpg" alt="" class="img-fluid">
+                                                </a>
+                                            </div>
+                                            <div class="post-item">
+                                                <div class="post-desc">
+                                                    <a href="#">
+                                                        Customer Onboarding Strategy: A Guide to Class
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-line2"></div>
+                                    </div>
+
+                                    <!-- post text 2 -->
+
+                                    <div class="post-text">
+                                        <div class="show-featured">
+                                            <div class="post-img">
+                                                <a href="#">
+                                                    <img src="img/blog/05-80x68.jpg" alt="" class="img-fluid">
+                                                </a>
+                                            </div>
+                                            <div class="post-item">
+                                                <div class="post-desc">
+                                                    <a href="#">
+                                                        How Investing in Self-Dependent Increase Business 
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-line2"></div>
+                                    </div>
+
+                                    <!-- post text 3 -->
+
+                                    <div class="post-text">
+                                        <div class="show-featured">
+                                            <div class="post-img">
+                                                <a href="#">
+                                                    <img src="img/blog/04-80x68.jpg" alt="" class="img-fluid">
+                                                </a>
+                                            </div>
+                                            <div class="post-item">
+                                                <div class="post-desc">
+                                                    <a href="#">
+                                                        7 Productivity Tips to Avoid Burnout When Working 
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-line2"></div>
+                                    </div>
+
+                                    <!-- post text 4 -->
+
+                                    <div class="post-text">
+                                        <div class="show-featured">
+                                            <div class="post-img">
+                                                <a href="#">
+                                                    <img src="img/blog/03-80x68.jpg" alt="" class="img-fluid">
+                                                </a>
+                                            </div>
+                                            <div class="post-item">
+                                                <div class="post-desc">
+                                                    <a href="#">
+                                                        Email Marketing Tips That Will Increase Your Sales  
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-line3"></div>
+                                    </div>
+                                </div>
+
+                                <!-- categories  -->
+                                <div class="recent-post shadow shadow-sm">
+                                    <h2 class="recent-title text-capitalize">
+                                        categories
+                                    </h2>
+                                    <div class="recent-line">
+
+                                    </div>
+                                    <ul class="cat-list">
+                                        <li>
+                                            <a href="#">
+                                                Branding
+                                            </a>
+                                        </li>
+                                        <div class="recent-line4"></div>
+                                        <li>
+                                            <a href="#">
+                                                Digital Marketing
+                                            </a>
+                                        </li>
+                                        <div class="recent-line4"></div>
+                                        <li>
+                                            <a href="#">
+                                                E-commerce
+                                            </a>
+                                        </li>
+                                        <div class="recent-line4"></div>
+                                        <li>
+                                            <a href="#">
+                                                Graphic Design
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>    
+
+                                <!-- follow us  -->
+                                <div class="recent-post shadow shadow-sm">
+                                    <h2 class="recent-title text-capitalize">
+                                        follow us
+                                    </h2>
+                                    <div class="recent-line">
+
+                                    </div>
+                                    <div class="follow-icon">
+                                        <a class="btn shadow-none p-1" href="#!">
+                                            <i class="fa-brands fa-facebook-f  "></i>
+                                        </a>
+                                        <a class="btn shadow-none p-1" href="#!">
+                                            <i class="fa-brands fa-twitter  "></i>
+                                        </a>
+                                        <a class="btn shadow-none p-1" href="#!">
+                                            <i class="fa-brands fa-linkedin "></i>
+                                        </a>
+                                        <a class="btn shadow-none p-1" href="#!">
+                                            <i class="fa-brands fa-instagram "></i>
+                                        </a>
+                                        <a class="btn shadow-none p-1" href="#!">
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    <!-- </div>        -->
+                </div>
+            </div>
+        <!-- </div>         -->
+    </div>
+
+
+    <!-- footer  -->
+    <div id="footer" class="footer">
+        <div class="container-fluid">
+            <div class="container-xxl container-xl container-lg container-md container-sm">
+                <div class="row"> 
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                        <img  src="img/logo_v.png" alt="" style="height: 25px; width: 125px;">
+                        <p class="text-white my-5" style="padding-right: 60px;">One of the main benefits of using Lorem Ipsum is that it can be easily generated, and it takes the pressure off designers to create meaningful text. Instead, they can focus on crafting the best website data.</p>
+                        <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                            <i class="fa-brands fa-facebook-f  "></i>
+                        </a>
+                        <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                            <i class="fa-brands fa-twitter  "></i>
+                        </a>
+                        <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                        <a class="btn btn-outline-dark btn-social mx-2 px-1 mb-3 " href="#!">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+        
+                    <div class="footer-content col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4" style="padding: 0px 15px 0px 70px;">
+                        <h3 class="footer-title text-uppercase text-white mb-4" style="font-weight: bolder;">contact us</h3>
+                        <div class="slide">
+                            <div class="slide sd1"></div>
+                            <div class="slide sd2"></div>
+                        </div>
+                        <div style="padding: 6px 40px 10px 0 ;">
+                            <div class="row align-content-center mb-3">
+                                <div class="col-2 pe-0 ">
+                                    <i class="fa-solid fa-map-location-dot info-icons1"></i>
+                                </div>
+                                <div class="col-10 ps-0">
+                                    <p class="text-white">374 FA Tower, William S Blvd
+                                        2721, IL, USA</p>
+                                </div>
+                            </div>
+                            <div class="row align-content-center mb-3">
+                                <div class="col-2 pe-0 ">
+                                    <i class="fa-solid fa-phone-volume info-icons1"></i>
+                                </div>
+                                <div class="col-10 ps-0">
+                                    <p class="text-white mb-0">(+880)155 69569 365</p>
+                                </div>
+                            </div>
+                            <div class="row align-content-center mb-3">
+                                <div class="col-2 pe-0 ">
+                                    <i class="fa-solid fa-envelope info-icons1"></i>
+                                </div>
+                                <div class="col-10 ps-0">
+                                    <a href="#" class="info-anchor info-anchor1">support@rstheme.com</a>
+                                </div>
+                            </div>
+                            <div class="row align-content-center mb-5">
+                                <div class="col-2 pe-0 ">
+                                    <i class="fa-regular fa-clock info-icons1"></i>
+                                </div>
+                                <div class="col-10 ps-0">
+                                    <p class="text-white">Opening Hours: 10:00 - 18:00</p>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="footer-content col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4"
+                    style="padding: 0px 0px 0px 40px; margin: 0px 0px 30px;">
+                        <h3 class="footer-title text-uppercase text-white mb-4" style="font-weight: bolder;">NEWSLETTER</h3>
+                        <div class="slide">
+                            <div class="slide sd1"></div>
+                            <div class="slide sd2"></div>
+                        </div>
+                        <p class="text-white">We denounce with righteous indignation in and dislike men who are so beguiled.</p>
+                        <p>
+                            <input type="email" name="EMAIL" placeholder="Your email address" required="">
+                            <input type="submit" value="Subscribe Now">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <!-- copyright  -->
+    <div class="copy py-3 text-white" style="background-color: black">
+        <div class="container-fluid">
+            <div class="container-xxl container-xl container-lg container-md container-sm">
+                <div class="copy-text">
+                <p class="mb-0">© 2021 Dabble Inc. All Rights Reserved.</p>
+                <ul class="d-flex">
+                    <li>
+                        <a class="text-white text-uppercase" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-uppercase" href="about.html">About us</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-uppercase" href="portfolio.html">Portfolios</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-uppercase" href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-uppercase" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>    
+            </div>
+        </div>    
+    </div>
+
+
+
+    <div id="scrollUp" style="display: block;">
+        <a href="#">
+            <i class="fa fa-angle-up"></i>
+        </a>    
+    </div>
+
+
+
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
