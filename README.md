@@ -73,4 +73,4 @@ Inspired by Tinder, this fun concept project helps users browse adoptable dogs. 
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/project-portfolio.git
+   git clone https://github.com/RupeshSangar/personal-projects.git
